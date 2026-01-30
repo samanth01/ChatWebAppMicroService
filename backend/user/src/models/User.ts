@@ -14,11 +14,10 @@ const schema: Schema<IUser> = new Schema(
             required: true,
         },
         email: {
-            types: String,
+            type: String,
             required: true,
             unique: true,
-        },
-
+        }
     },
     {
         timestamps: true
